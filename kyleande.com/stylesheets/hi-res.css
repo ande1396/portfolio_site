@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.p-list .square #linked {
+	background: url(images/Slopescast-2@2.png) no-repeat center center;	
+	-webkit-background-size:225px 175px;
+	-moz-background-size: 225px 175px;
+	background-size: 225px 175px;
+
+}

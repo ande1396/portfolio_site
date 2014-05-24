@@ -1,0 +1,398 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+/*https://github.com/lmccalman/mccalman.info/blob/master/sass/_fonts.scss*/
+
+#header {
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size:38px; 
+	color: #000000;
+	background: rgb(237, 246, 253);
+	line-height:50px;
+	height:485px;
+	z-index:2;
+	position:relative;
+	padding:70px 0 0 0;
+}
+	#header #initials {
+		height: 80px;
+		font-size: 55px;
+	}
+	#header .info {
+		margin:50px 1% 70px 1%;
+	}
+	#header .square , #header .square-2, #header .square-3, #header .square-4 {
+		display:inline-block;
+		width:100px;
+		height:40px;
+		text-align:center;
+		margin:0 30px 0 30px;
+		top:0;
+		color:#FFFFFF;
+		line-height:32px;
+		border-radius:3px;
+		position:relative;
+		-o-transition:0.05s;
+		-ms-transition:0.05s;
+		-moz-transition:0.05s;
+		-webkit-transition:0.05s;
+		transition:0.05s;
+		-webkit-transition: all 0.1s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out;
+		-o-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;
+	}
+	#header .square a , #header .square-2 a, #header .square-3 a, #header .square-4 a {
+		text-align:center;
+	}
+	#header #linked {
+		background:#00aced;
+	}
+	#header .square:hover, #header .square-2:hover, #header .square-3:hover, #header .square-4:hover   {
+		top:-5px;
+	}
+	#header #github {
+		background: #000000;
+		color: #FFFFFF;
+	}
+	#header #blog {
+		background: #FF6600;
+	}
+	#header #header-projects {background: #2bbc8b }
+
+
+
+.social {
+	height: 80px;
+}
+
+#linked {
+	font-size: 16px;
+	padding-top: 4px;
+}
+	#linked a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+#github {
+	font-size: 16px;
+	padding-top: 4px;
+}
+	#github a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+#blog {
+	font-size: 16px;
+	padding-top: 4px;
+}
+	#blog a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+#profile {
+	font-size: 16px;
+	padding-top: 4px;
+}
+	#profile a {
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+#header-projects {
+	font-size: 16px;
+	padding-top: 4px;
+}
+	#header-projects a {
+		text-decoration: none;
+		color: #FFF
+	}
+
+.info {
+	font-weight:300;  
+}
+
+
+/*============================================ header ======================================== */ 
+
+.picture {
+	width:100%;
+	height:260px;
+	position:fixed;
+	top:100px;
+	left:0;
+	z-index:1;
+	text-align:center;
+	padding:310px 0 0 0;
+}
+	.picture img {
+		position:absolute;
+		width:100%;
+		min-width:1400px;
+		top:-175px;
+		left:0;
+		z-index:0;
+	}
+	.picture .info {
+		text-align:center;
+		/*font-family: 'Open Sans', sans-serif;*/
+		font-size:38px; 
+		color: #000000;
+		line-height:50px;	                           
+		z-index:1;
+		position:relative;
+	}
+.picture .info a {
+
+}
+
+
+#skills {
+
+}
+
+#skills p { 
+	text-align:center;
+	font-weight:300;
+	font-family:'Open Sans', sans-serif
+}
+	#skills p:first-child {
+
+	}
+
+/* ======================== start of container ===============*/
+.container {
+	text-align:center;
+	position:relative;
+	background: rgb(237, 246, 253);
+	height:450px;
+	z-index:2;
+	padding:105px 0 0 0;
+	font-family:'Open Sans', sans-serif;
+	margin:595px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+	.container .info {
+		line-height:50px;
+		font-size:36px;
+		position:relative;
+		z-index:1;
+		color: #000000;
+	}
+	.container .info a {
+		color:#ea4c89;
+	}
+
+
+/*=============================== projects ===============================*/
+
+.projects {
+	height: 400px;
+/*	border: 1px solid blue;
+*/	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size:38px; 
+	color:#7f8c8d;
+	line-height:50px;
+	z-index:2;
+	position:relative;
+	padding:30px 0 0 0;
+} 
+	.projects .square , .projects .square-2, .projects .square-3, .projects .square-4  {
+	display:inline-block;
+	width:225px;
+	height:250px;
+	text-align:center;
+	margin:0 30px 0 30px;
+	top:0;
+	color:#FFFFFF;
+	line-height:32px;
+	border-radius:3px;
+	position:relative;
+	-o-transition:0.05s;
+	-ms-transition:0.05s;
+	-moz-transition:0.05s;
+	-webkit-transition:0.05s;
+	transition:0.05s;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+
+	/*border: 1px solid black;*/
+}
+.p-list {
+	height: 300px;
+}
+
+	.p-list #linked, .p-list #blog, .p-list #github, .p-list #profile {
+		padding-top: 0px;
+	}
+.projects-a {
+	border: 1px solid black;
+}
+.built {
+	color: black;
+	height: 65px;
+	float: left;
+	/*font-size: 14px;*/
+}
+
+.built-mini {
+	color: #FFFFFF;
+	height: 65px;
+	float: left;
+	/*font-size: 14px;*/
+}
+
+/*==============================  start of mini   ====================================*/
+
+.mini {
+	background: #2bbc8b;
+	height:470px;
+	position:relative;
+	z-index: 3;
+	text-align:center;
+	padding:10px 0 0 0;
+	font-size:36px;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+	.mini .square , .mini .square-2, .mini .square-3  {
+	display:inline-block;
+	width:225px;
+	height:250px;
+	text-align:center;
+	margin:0 15px 0 15px;
+	top:0;
+	color:#FFFFFF;
+	line-height:32px;
+	border-radius:3px;
+	position:relative;
+	-o-transition:0.05s;
+	-ms-transition:0.05s;
+	-moz-transition:0.05s;
+	-webkit-transition:0.05s;
+	transition:0.05s;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+
+	/*border: 1px solid black;*/
+}
+.mini p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	width: 100%;
+	text-align: center;
+}
+#mini-projects {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding: 70px 0 40px 0;
+}
+.mini-projects p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+/* =============== start of footer ================================ */
+
+.footer {
+	background: #FF7F50;
+	position:relative;
+	z-index: 4;
+	padding:58px 0 40px 0;
+	text-align:center;
+}
+	.footer .info {
+		color:#FFFFFF;
+		font-size:36px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300px;
+	}
+#last {
+	background: #FF7F50;
+	line-height:36px;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:14px;
+	min-height:36px;
+	position: relative;
+	z-index: 4;
+}
+#slam-link { 
+	cursor: pointer;
+	text-decoration: underline;			
+}
+.ui-dialog .ui-dialog-title {
+float: left;
+margin: .1em 0;
+white-space: nowrap;
+width: 90%;
+overflow: hidden;
+text-overflow: ellipsis;
+background: white;
+}
+.ui-dialog .ui-dialog-titlebar {
+padding: .4em 1em;
+position: relative;
+background: white;
+}
+.ui-widget-overlay ui-font {
+background: darkseagreen;
+opacity: .3;
+filter: Alpha(Opacity=30);
+}
+.ui-widget-header {
+border: none;
+}
+.ui-dialog.content.ui-widget-content {
+display: inline;
+width: auto;
+min-height: 315px;
+min-width: 515px;
+max-height: none;
+height: 249px;
+}
+iframe.style {
+display: inline;
+width: auto;
+min-height: 315px;
+min-width: 515px;
+max-height: none;
+height: 249px;
+}
+#ui-id-1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300px;
+}
+
+
+@media (min-width: 1px) and (max-width: 781px) {
+	
+}
+
+
+@media (min-width: 598px) and (max-width: 1190px) {
+	.container {height: 700px; padding: 50px 0 0 0 }
+	.projects .square , .projects .square-2, .projects .square-3, .projects .square-4 {margin-top: 20px;}
+}
+
+@media (min-width: 1px) and (max-width: 597px) {
+	.container {height: 1210px; padding: 75px 0 0 0}
+	.square.projects .square , .projects .square-2, .projects .square-3, .projects .square-4 {margin-top: 20px;}
+	.mini {height: 650px;}
+	#mini-projects {padding-top: 50px;}
+	.info p {font-size: 32px;}
+}
+
+
