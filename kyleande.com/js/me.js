@@ -3,16 +3,16 @@
                 $('#slam').dialog('open');
             });
 
-        jQuery(document).ready(function() {
-            jQuery("#slam").dialog({
+        $(document).ready(function() {
+            $("#slam").dialog({
                 autoOpen: false,
                 height: 315,
                 title: "You're Welcome--Jump to 0:40",
                 width: 485,
                 modal: true,
                 open: function(){
-                jQuery('.ui-widget-overlay').bind('click',function(){
-                jQuery('#slam').dialog('close');
+                $('.ui-widget-overlay').bind('click',function(){
+                $('#slam').dialog('close');
                     })
                 }
             });
